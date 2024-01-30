@@ -1,0 +1,324 @@
+/*-------------- UNIVERSAL CSS ------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: black;
+    color: white;
+}
+
+/*------------- NAVIGATION BAR -------------*/
+#nav_bar {
+    width: 100%;
+    height: 70px;
+    padding: 0 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+#nav_bar img {
+    height: 40px;
+}
+
+#nav_bar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav_bar ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+#nav_bar ul li a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#nav_bar ul li a:hover {
+    color: rgb(226, 68, 68);
+    transition: 0.3s;
+}
+
+#nav_bar ul li a .nav-bar-fa-solid {
+    margin-right: 5px;
+}
+
+#nav_bar ul li a:hover .nav-bar-fa-solid {
+    color: rgb(226, 68, 68);
+    transition: 0.3s;
+}
+
+#nav_bar ul li a #linked-profile-button {
+    height: 35px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#nav_bar ul li a #linked-profile-button .fa-linkedin {
+    font-size: 18px;
+}
+
+#nav_bar ul li a #linked-profile-button:hover {
+    border-color: rgb(226, 68, 68);
+    transition: 0.3s;
+}
+
+#nav_bar ul li a #linked-profile-button:hover .fa-linkedin {
+    color: rgb(226, 68, 68);
+    transition: 0.3s;
+}
+
+/*------------ HOME SECTION --------------*/
+#home-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#home-section-top-part {
+    width: 100%;
+    height: 85vh;
+    margin-top: 70px;
+    padding: 0 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home-section-left-part h1 {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#home-section-left-part h2 {
+    font-size: 53px;
+}
+
+#home-section-left-part h2 span {
+    color: rgb(226, 68, 68);
+}
+
+#home-section-right-part img {
+    max-width: 75%;
+    height: auto;
+}
+
+#home-section-bottom-part {
+    width: 100%;
+    padding: 0 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#home-section-bottom-part-left-part {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#home-section-bottom-part-left-part h3 {
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+#home-section-bottom-part-left-part h3 span {
+    color: rgb(226, 68, 68);
+}
+
+#home-section-bottom-part-left-part p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/*------------ FOOTER SECTION -------------*/
+#footer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#footer-section-top-part {
+    width: 100%;
+    padding: 0 8%;
+}
+
+#footer-section-top-part h4 {
+    font-size: 28px;
+}
+
+#footer-section-top-part button {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#footer-section-top-part button a .fa-brands {
+    font-size: 30px;
+}
+
+#footer-section-top-part button:hover .fa-brands {
+    color: rgb(226, 68, 68);
+    transition: 0.3s;
+}
+
+#footer-section-bottom-part {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#footer-section-bottom-part p {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#footer-section-bottom-part p span {
+    color: rgb(226, 68, 68);
+}
+
+#footer-section-bottom-part p a {
+    margin-left: 20px;
+}
+
+/*------------ Media Queries ------------*/
+@media only screen and (max-width: 768px) {
+    #nav_bar {
+        height: 60px;
+    }
+
+    #nav_bar img {
+        height: 30px;
+    }
+
+    #nav_bar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav_bar ul li {
+        margin: 10px 0;
+    }
+
+    #home-section-top-part {
+        height: auto;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #home-section-left-part h1 {
+        font-size: 24px;
+    }
+
+    #home-section-left-part h2 {
+        font-size: 40px;
+    }
+
+    #home-section-right-part img {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #nav_bar {
+        height: 50px;
+    }
+
+    #nav_bar img {
+        height: 25px;
+    }
+
+    #home-section-top-part {
+        padding: 0 5%;
+    }
+
+    #home-section-left-part h1 {
+        font-size: 20px;
+    }
+
+    #home-section-left-part h2 {
+        font-size: 35px;
+    }
+
+    #home-section-right-part img {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #nav_bar ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        background-color: #333;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        z-index: 1;
+    }
+
+    #nav_bar ul li {
+        margin: 10px 0;
+    }
+
+    #nav_bar ul li a {
+        color: white;
+        font-size: 18px;
+        padding: 10px;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .menu-toggle {
+        display: none;
+    }
+
+    #nav_bar ul {
+        display: flex !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #nav_bar ul li a {
+        font-size: 16px;
+    }
+}
