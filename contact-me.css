@@ -410,6 +410,10 @@ form button{
         width: 100%;
     }
 
+    #contact-section-bottom-part-right-part #form{
+        margin-right: 5%;
+    }
+
     #contact-section-bottom-part-left-part .box-right-part p,
     #contact-section-bottom-part-right-part label,
     #contact-section-bottom-part-right-part input,
