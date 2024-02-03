@@ -80,6 +80,36 @@
     transition: 0.3s;
 }
 
+/*--------------- RESUME SECTION --------------*/
+#resume-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#resume-section-top-part{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#resume-section-top-part a{
+    border: none;
+    background-color: rgb(226, 68, 68);
+    height: 40px;
+    width: 200px;
+    margin-top: 300px;
+    color: white;
+}
+
+#resume-section-top-part img{
+    height: 500px;
+    width: 700px;
+    object-fit: contain;
+}
+
 /*------------ FOOTER SECTION -------------*/
 #footer-section {
     width: 100%;
