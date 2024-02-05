@@ -81,7 +81,7 @@
 }
 
 /*------------- RESUME SECTION -------------*/
-#resume-section{
+#resume-section {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -91,26 +91,26 @@
     padding-right: 8%;
 }
 
-#resume-section-top-part{
+#resume-section-top-part {
     margin-top: 300px;
 }
 
-#resume-section-top-part h1{
+#resume-section-top-part h1 {
     font-size: 28px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 
-#resume-section-middle-part{
+#resume-section-middle-part {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#resume-section-middle-part img{
+#resume-section-middle-part img {
     height: 700px;
-    width: 400px;
+    width: 40;
 }
 
 /*------------ FOOTER SECTION -------------*/
@@ -205,7 +205,7 @@
         height: 25px;
     }
 
-    #footer-section-bottom-part{
+    #footer-section-bottom-part {
         padding: 0 5%;
     }
 }
