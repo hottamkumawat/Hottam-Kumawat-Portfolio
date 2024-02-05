@@ -80,33 +80,37 @@
     transition: 0.3s;
 }
 
-/*--------------- RESUME SECTION --------------*/
+/*------------- RESUME SECTION -------------*/
 #resume-section{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
-}
-
-#resume-section-top-part{
     padding-left: 8%;
     padding-right: 8%;
 }
 
-#resume-section-top-part a{
-    border: none;
-    background-color: rgb(226, 68, 68);
-    height: 40px;
-    width: 200px;
+#resume-section-top-part{
     margin-top: 300px;
-    color: white;
 }
 
-#resume-img{
-    height: 200px;
-    width: 180px;
+#resume-section-top-part h1{
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#resume-section-middle-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resume-section-middle-part img{
+    height: 700px;
+    width: 400px;
 }
 
 /*------------ FOOTER SECTION -------------*/
