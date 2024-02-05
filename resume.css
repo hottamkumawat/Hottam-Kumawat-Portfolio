@@ -104,10 +104,9 @@
     color: white;
 }
 
-#resume-section-top-part img{
-    height: 500px;
-    width: 700px;
-    object-fit: contain;
+#resume-img{
+    height: 200px;
+    width: 180px;
 }
 
 /*------------ FOOTER SECTION -------------*/
