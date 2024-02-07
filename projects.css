@@ -259,6 +259,10 @@
         margin-bottom: 15px;
     }
 
+    .project ul{
+        padding: 0 3%;
+    }
+
     .project ul li{
         font-size: 10px;
     }
