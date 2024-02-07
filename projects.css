@@ -259,6 +259,10 @@
         margin-bottom: 15px;
     }
 
+    .project ul li{
+        font-size: 10px;
+    }
+
     #footer-section-bottom-part {
         padding: 0 5%;
     }
