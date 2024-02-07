@@ -255,7 +255,7 @@
 
     .project {
         height: 500px;
-        width: 320px;
+        width: 350px;
         margin-bottom: 15px;
     }
 
@@ -264,7 +264,7 @@
     }
 
     .project ul li{
-        font-size: 10px;
+        font-size: 14px;
     }
 
     #footer-section-bottom-part {
