@@ -245,6 +245,23 @@
     #nav_bar img {
         height: 25px;
     }
+
+    #projects-section-middle-part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project {
+        height: 500px;
+        width: 350px;
+        margin-bottom: 15px;
+    }
+
+    #footer-section-bottom-part {
+        padding: 0 5%;
+    }
 }
 
 @media only screen and (max-width: 768px) {

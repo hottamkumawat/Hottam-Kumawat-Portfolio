@@ -110,7 +110,23 @@
 
 #resume-section-middle-part img {
     height: 700px;
-    width: 40;
+    width: 350px;
+    border: 5px solid red;
+}
+
+/* #img-H{
+    height: 600px;
+    width: 350px;
+} */
+
+#resume-center-part-middle img{
+    height: 700px;
+    width: 750px;
+}
+
+#resume-center-part-top h1{
+    font-size: 100px;
+    color: red;
 }
 
 /*------------ FOOTER SECTION -------------*/
