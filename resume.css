@@ -80,20 +80,6 @@
     transition: 0.3s;
 }
 
-/*------------- RESUME SECTION -------------*/
-#resume-section{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 8%;
-    padding-right: 8%;
-}
-
-#resume-section-top-part h1{
-    font-size: 50px;
-}
-
 /*------------ FOOTER SECTION -------------*/
 #footer-section {
     width: 100%;
