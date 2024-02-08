@@ -92,13 +92,13 @@
 }
 
 #projects-section-top-part {
-    margin-top: 150px;
+    margin-top: 110px;
     text-align: center;
     margin-bottom: 50px;
 }
 
 #projects-section-top-part h1 {
-    font-size: 35px;
+    font-size: 28px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -155,6 +155,121 @@
     width: 300px;
 }
 
+/*----------- TOOLS SECTION -----------*/
+#tools-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#tools-section-top-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#tools-section-top-part h1 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#tools-section-top-part h1 span {
+    color: rgb(226, 68, 68);
+}
+
+#tools-section-bottom-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+
+.tool {
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(226, 68, 68);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 5px;
+    margin-left: 35px;
+    color: rgb(226, 68, 68);
+}
+
+.tool:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 15px 2px rgb(226, 68, 68);
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+/*------------- SKILL SECTION ------------*/
+#skill-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#skill-section-top-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#skill-section-top-part h1 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#skill-section-top-part h1 span {
+    color: rgb(226, 68, 68);
+}
+
+#skill-section-bottom-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.skill {
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(226, 68, 68);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 5px;
+    margin-left: 35px;
+    color: rgb(226, 68, 68);
+}
+
+.skill:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 15px 2px rgb(226, 68, 68);
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
 /*------------ FOOTER SECTION -------------*/
 #footer-section {
     width: 100%;
@@ -172,7 +287,7 @@
 }
 
 #footer-section-top-part h4 {
-    font-size: 35px;
+    font-size: 28px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -259,16 +374,28 @@
         margin-bottom: 15px;
     }
 
-    .project ul{
+    .project ul {
         padding: 0 3%;
     }
 
-    .project ul li{
+    .project ul li {
         font-size: 14px;
     }
 
     #footer-section-bottom-part {
         padding: 0 5%;
+    }
+
+    #tools-section-bottom-part {
+        justify-content: space-around;
+    }
+
+    .tool {
+        margin-top: 30px;
+    }
+
+    .skill {
+        margin-top: 30px;
     }
 }
 
