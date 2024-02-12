@@ -343,12 +343,14 @@ form button{
         flex-direction: column;
         justify-content: center;
         padding: 0 5%;
+        border: none;
     }
 
     form{
         width: 380px;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
+        padding-left: 25px;
     }
 }
 
