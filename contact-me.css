@@ -324,20 +324,31 @@ form button{
         height: 25px;
     }
 
-    #home-section-top-part {
+    #contact-section-top-part{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contact-section-bottom-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #contact-section-bottom-part-left-part{
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         padding: 0 5%;
+        border: none;
     }
 
-    #home-section-left-part h1 {
-        font-size: 20px;
-    }
-
-    #home-section-left-part h2 {
-        font-size: 35px;
-    }
-
-    #home-section-right-part img {
-        height: 250px;
+    #contact-section-bottom-part-right-part{
+        border-top-right-radius: none;
+        border-bottom-right-radius: none;
     }
 }
 
