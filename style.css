@@ -149,6 +149,33 @@
     margin-bottom: 15px;
 }
 
+#two{
+    display: inline-block;
+}
+
+#one{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border-right: 2px solid rgb(226, 68, 68);
+    width: 0px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: one 4s steps(8, end) infinite;
+}
+
+@keyframes one{
+    0%{
+        width: 0;
+    }
+
+    50%{
+        width: 100%;
+    }
+}
+
 /*------------ FOOTER SECTION -------------*/
 #footer-section {
     width: 100%;
