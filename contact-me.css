@@ -40,20 +40,27 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
+    position: relative;
 }
 
-#nav_bar ul li a:hover {
-    color: rgb(226, 68, 68);
-    transition: 0.3s;
+#nav_bar ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: rgb(226, 68, 68);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+
+}
+
+#nav_bar ul li a:hover::after{
+    width: 100%;
+    transition: 0.5s;
 }
 
 #nav_bar ul li a .nav-bar-fa-solid {
     margin-right: 5px;
-}
-
-#nav_bar ul li a:hover .nav-bar-fa-solid {
-    color: rgb(226, 68, 68);
-    transition: 0.3s;
 }
 
 #nav_bar ul li a #linked-profile-button {
@@ -68,16 +75,6 @@
 
 #nav_bar ul li a #linked-profile-button .fa-linkedin {
     font-size: 18px;
-}
-
-#nav_bar ul li a #linked-profile-button:hover {
-    border-color: rgb(226, 68, 68);
-    transition: 0.3s;
-}
-
-#nav_bar ul li a #linked-profile-button:hover .fa-linkedin {
-    color: rgb(226, 68, 68);
-    transition: 0.3s;
 }
 
 /*------------- CONTACT ------------*/
